@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     sendBtn.addEventListener('click', function() {
         const userMessage = userInput.value;
         displayMessage('User', userMessage);
-        userInput.value = '';
+       // userInput.value = '';
         setTimeout(function() {
             displayMessage('ChatGPT', getRandomResponse());
         }, 1000); // Simulate ChatGPT response delay
